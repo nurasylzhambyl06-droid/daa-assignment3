@@ -1,0 +1,10 @@
+# DISCONNECTED undirected graph with a self-loop, parallel edges and isolated vertices.
+# Components: {0,1,2} (triangle), {3,4} (two parallel edges), {5} (only a self-loop), {6}, {7}  -> 5 components.
+# Minimum spanning forest: triangle 3+4 = 7, pair 2, total weight 9, 3 edges.
+8 6 undirected
+0 1 5
+1 2 3
+0 2 4
+3 4 7
+3 4 2
+5 5 1
