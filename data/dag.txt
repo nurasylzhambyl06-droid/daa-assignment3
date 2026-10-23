@@ -1,0 +1,11 @@
+# DAG with negative weights, single source 0.
+# Shortest distances from the (virtual) source: 0, 2, -1, 0, 5, -2   (sum = 4)
+# Shortest path to vertex 5: 0 -> 1 -> 2 -> 3 -> 5.   Longest (critical) path: 0 -> 2 -> 4, length 10.
+6 7 directed
+0 1 2
+0 2 4
+1 2 -3
+1 3 5
+2 3 1
+2 4 6
+3 5 -2

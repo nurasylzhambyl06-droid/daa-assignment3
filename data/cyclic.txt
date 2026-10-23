@@ -1,0 +1,10 @@
+# CYCLIC directed graph: two cycles 0->1->2->0 and 3->4->5->3, joined by the arrow 2->3.
+# Kahn must report a cycle. SCCs: {0,1,2} and {3,4,5} -> 2 components. The condensation is one edge of weight 2.
+6 7 directed
+0 1 1
+1 2 1
+2 0 1
+2 3 2
+3 4 1
+4 5 1
+5 3 1
